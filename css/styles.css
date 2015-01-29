@@ -1,22 +1,22 @@
 /* Global */
 .home {
-	background: D5DED9;
+	background: #D5DED9;
 }
 
 .bio {
-	background: D5DED9;
+	background: #D5DED9;
 }
 
 
 
 /* nav */
 nav a:link {
-  color: 7A6A53;
+  color: #7A6A53;
   text-decoration: none;
   
 }
 nav a:visited {
-   color: 948C75;
+   color: #948C75;
   
 }
 nav :focus {
@@ -28,19 +28,16 @@ nav a:hover {
 
 nav a:active {
   
-  color: 948C75;
+  color: #948C75;
 }
 
 /* Bio */
 
 h1 {
-background-color: 99B2B7;
-color: 7A6A53;
+background-color: #99B2B7;
+color: #7A6A53;
 font-weight: bold;
 font-size: 1.5em;
 line-height: 1.5;
 font-style: Arial;
 }
-
-
-
