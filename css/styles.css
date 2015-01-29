@@ -1,16 +1,25 @@
 /* Global */
+.home {
+	background: D5DED9;
+}
+
+.bio {
+	background: D5DED9;
+}
+
+
 
 /* nav */
 nav a:link {
-  color: #7acbc0;
+  color: 7A6A53;
   text-decoration: none;
   
 }
 nav a:visited {
-   color: #d9e9ea;
+   color: 948C75;
   
 }
-anav :focus {
+nav :focus {
   background: orange;
 }
 nav a:hover {
@@ -19,7 +28,19 @@ nav a:hover {
 
 nav a:active {
   
-  color: red;
+  color: 948C75;
 }
 
 /* Bio */
+
+h1 {
+background-color: 99B2B7;
+color: 7A6A53;
+font-weight: bold;
+font-size: 1.5em;
+line-height: 1.5;
+font-style: Arial;
+}
+
+
+
