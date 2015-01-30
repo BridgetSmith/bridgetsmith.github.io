@@ -36,7 +36,7 @@ nav a:active {
 
 height: 350px;
 background-image: url('/img/studio_045.jpg');
-background-size: cover;
+background-size: 100%;
 background-repeat: no-repeat;
 background-position: center;
 margin: auto;
