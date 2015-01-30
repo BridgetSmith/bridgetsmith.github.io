@@ -36,10 +36,11 @@ nav a:active {
 h1 {
 background-color: #99B2B7;
 color: #7A6A53;
-font-weight: bold;
-font-size: 1.5em;
+font-size: 2.5em;
 line-height: 1.5;
 font-family: 'Pacifico', cursive;
+margin: 20px;
+padding: 10px;
 }
 
 body {
