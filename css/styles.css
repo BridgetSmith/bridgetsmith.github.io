@@ -38,16 +38,20 @@ background-color: #99B2B7;
 color: #7A6A53;
 font-size: 2.5em;
 line-height: 1.5;
-font-family: 'Pacifico', cursive;
+font-family: 'Pacifico';
 margin: 20px;
 padding: 10px;
 }
 h2 {
-  
+  color: #948C75;
+  font-family: 'Amatic SC';
+}
 
+h3 {
+   font-family: 'Amatic SC';
 }
 
 body {
 
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Amatic SC';
 }
