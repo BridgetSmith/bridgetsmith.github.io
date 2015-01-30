@@ -44,6 +44,11 @@ margin: auto;
 box-shadow: inset 0 0 50px 10px rgba(0,0,0, 1);
 */
 }
+.name {
+  float: right;
+  margin: 0 50;
+  font-size: 8em;
+}
 h1 {
 background-color: #99B2B7;
 color: #7A6A53;
