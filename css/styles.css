@@ -33,7 +33,6 @@ nav a:active {
 
 /* Bio */
 .main-header {
-background-color: #ffa949;
 padding-top: 170px;
 height: 350px;
 background-image: url('/img/studio_045.jpg');
@@ -41,8 +40,9 @@ background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 margin: auto;
+/*  box shadow
 box-shadow: inset 0 0 50px 10px rgba(0,0,0, 1);
-
+*/
 }
 h1 {
 background-color: #99B2B7;
