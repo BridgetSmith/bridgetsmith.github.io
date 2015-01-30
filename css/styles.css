@@ -46,9 +46,9 @@ box-shadow: inset 0 0 50px 10px rgba(0,0,0, 1);
 }
 .name {
   float: right;
-  margin: 20 20 0 0;
+  margin: auto;
   font-size: 4em;
-  padding: 50px;
+  padding: 70px 50px 20px 10px;
 }
 h1 {
 color: #543511;
