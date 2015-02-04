@@ -103,6 +103,10 @@ body {
 }
 /* Layout for Style Tile
 Feel free to change */
+body {
+  background-image: url("../img/seamless_paper_texture.png");
+}
+
 section {
   margin: 20px 0;
 }
@@ -148,4 +152,17 @@ h2, h3, p {
 }
 .style-tile .color-3{
   background: #948C75;
+}
+.style-tile .pattern-1 {
+  background: url("../img/seamless_paper_texture.png");
+}
+.style-tile .container {
+  margin-top: 6em;
+  border-radius: 2em;
+  background: #f3f3f3;
+  padding: 5em;
+}
+
+
+
 }
