@@ -132,6 +132,7 @@ section {
 /* Set Your Own Margin & Padding */
 h2, h3, p {
   margin: 0;
+  font-family: 'Amatic SC', cursive;
 }
  
 /* Clearfix - Oo Not Remove */
@@ -140,8 +141,11 @@ h2, h3, p {
 
 /*  Color Pallette */
 .style-tile .color-1 {
-  background: red;
+  background: #543511;
 }
 .style-tile .color-2 {
-  background: blue;
+  background: #D5DED9
+}
+.style-tile .color-3{
+  background: #948C75;
 }
