@@ -145,6 +145,9 @@ h2, h3, p {
 
 
 /*  Color Pallette */
+.style-tile {
+  max-width: 1000px;
+}
 .style-tile .color-1 {
   background: #543511;
 }
@@ -162,6 +165,7 @@ h2, h3, p {
   border-radius: 2em;
   background: #f3f3f3;
   padding: 5em;
+  background-color: #EDEEF0;
 }
 
 
