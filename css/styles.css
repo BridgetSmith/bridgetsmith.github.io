@@ -104,7 +104,7 @@ body {
 }
 /* Layout for Style Tile
 Feel free to change */
-body {
+ body {
   background-image: url("../img/seamless_paper_texture.png");
 }
 
@@ -116,19 +116,20 @@ section {
 .color-2,
 .color-3,
 .pattern-1,
-.pattern-2,
-.pattern-3, 
-.imagery-1,
-.imagery-2,
-.imagery-3 {
+.pattern-2
+.pattern-3
+.images-1
+.images-2
+.images-3 {
   border: 1px solid #000;
   float: left;
   margin: 0 10px;
   height: 50px;
   width: 50px;
 }
-.style-tile h1 {
+ h1 {
   font-family: 'Pacifico', cursive;
+ 
 }
  
 /* Set Your Own Typography */
@@ -138,7 +139,9 @@ section {
 h2, h3, p {
   margin: 0;
   font-family: 'Amatic SC', cursive;
+
 }
+
  
 /* Clearfix - Oo Not Remove */
 .clearfix {clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
@@ -159,7 +162,14 @@ h2, h3, p {
 }
 .style-tile .pattern-1 {
   background: url("../img/seamless_paper_texture.png");
+
 }
+.style-tile h4 {
+  text-align: left;
+}
+
+
+
 .style-tile .container {
   margin-top: 6em;
   border-radius: 2em;
