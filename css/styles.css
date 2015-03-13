@@ -10,12 +10,16 @@
 
 
 
+
 /* nav */
 nav a:link {
   color: #7A6A53;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   
+}
+ul {
+  list-style-type: none;
 }
 nav a:visited {
    color: #948C75;
@@ -109,10 +113,15 @@ body {
 
 	 font-family: 'Open Sans', sans-serif;
    font-size: 1.25em;
+   color: #616768;
    line-height: 1.5;
    text-align: center;
    margin: auto;
    padding: 10px; 
+}
+dl li {
+  
+  list-style-type: none;
 }
 /* Layout for Style Tile
 Feel free to change */
@@ -189,5 +198,29 @@ section {
   background: #f3f3f3;
   padding: 5em;
   background-color: #EDEEF0;
+}
+
+/*portfolio*/
+/*layout of gallery items*/
+figure { 
+ 
+  
+  /* layout */
+
+  
+  /* set relative parent for each time*/
+  position: relative;
+}
+.item {
+
+  /* parent for caption */ 
+  position: relative;
+ 
+  /* 
+    * set to any dimensions
+    * matched to size of image in this case
+  */   
+   /* hide overflowing content */ 
+
 }
 
