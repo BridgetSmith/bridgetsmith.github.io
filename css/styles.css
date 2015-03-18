@@ -7,6 +7,11 @@
 .bio {
 	background: #D5DED9;
 }
+img {
+  border-radius: 5px;
+}
+
+
 
 
 
@@ -17,9 +22,11 @@ nav a:link {
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   
+  
 }
 ul {
   list-style-type: none;
+
 }
 nav a:visited {
    color: #948C75;
@@ -148,11 +155,13 @@ section {
   margin: 0 10px;
   height: 50px;
   width: 50px;
+  border-radius: 5px;
 }
  h1 {
   font-family: 'Pacifico', cursive;
  
 }
+
  
 /* Set Your Own Typography */
  
@@ -203,19 +212,57 @@ section {
 
 /*portfolio*/
 /*layout of gallery items*/
-figure { 
+.gallery .control-button {
+  color: #ccc;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.gallery .control-button:hover {
+  color: white;
+  color: rgba(255, 255, 255, 0.8);
+}
  
   
   /* layout */
+  .gallery {
+  position: relative;
+}
+.gallery .item {
+  height: 400px;
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+.gallery .controls {
+  position: absolute;
+  bottom: -120px;
+  width: 100%;
+  text-align: center;
+}
+
+.gallery .controls img {
+  border: 5px solid ;
+}
+
+.gallery .control-button {
+  display: inline-block;
+  margin: 0 .02em;
+  font-size: 3em;
+  text-align: center;
+  text-decoration: none;
+  transition: color .1s;
+}
+.showgrid {
+  background: url("../img/grid-bg.png") repeat-y;
+}
 
   
   /* set relative parent for each time*/
-  position: relative;
-}
-.item {
+  
 
   /* parent for caption */ 
-  position: relative;
+  
 
   /* 
     * set to any dimensions
