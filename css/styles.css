@@ -228,7 +228,7 @@ section {
   position: relative;
 }
 .gallery .item {
-  height: 400px;
+  
   overflow: hidden;
   text-align: center;
   margin-bottom: 50px;
